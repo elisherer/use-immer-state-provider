@@ -1,0 +1,54 @@
+{
+  "name": "use-immer-state-provider",
+  "version": "1.0.1",
+  "description": "React hook and provider for immutable state with actions api",
+  "main": "dist/use-immer-state-provider.js",
+  "umd:main": "dist/use-immer-state-provider.umd.js",
+  "module": "dist/use-immer-state-provider.module.js",
+  "jsnext:main": "dist/use-immer-state-provider.module.js",
+  "react-native": "dist/use-immer-state-provider.module.js",
+  "typings": "dist/index.d.ts",
+  "source": "src/index.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/use-immer-state-provider.js",
+      "import": "./dist/use-immer-state-provider.module.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "microbundle",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mweststrate/use-immer.git"
+  },
+  "files": [
+    "dist/"
+  ],
+  "keywords": [
+    "immer",
+    "use-immer",
+    "react",
+    "hooks"
+  ],
+  "author": "Eli Sherer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elisherer/use-immer-state-provider/issues"
+  },
+  "homepage": "https://github.com/elisherer/use-immer-state-provider#readme",
+  "peerDependencies": {
+    "immer": ">=2.0.0",
+    "react": "^16.8.0 || ^17.0.1 || ^18.0.0",
+    "use-immer": "^0.9.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.51",
+    "immer": "^10.0.3",
+    "microbundle": "^0.15.1",
+    "typescript": "^5.3.3"
+  }
+}
