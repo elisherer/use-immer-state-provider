@@ -1,6 +1,6 @@
 {
   "name": "use-immer-state-provider",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "React hook and provider for immutable state with actions api",
   "main": "dist/use-immer-state-provider.js",
   "umd:main": "dist/use-immer-state-provider.umd.js",
@@ -42,7 +42,7 @@
   "homepage": "https://github.com/elisherer/use-immer-state-provider#readme",
   "peerDependencies": {
     "immer": ">=8.0.0",
-    "react": "^16.8.0 || ^17.0.1 || ^18.0.0",
+    "react": "^16.8.0 || ^17.0.1 || ^18.0.0 || ^19.0.0 || ^19.1.0",
     "use-immer": "^0.10.0 || ^0.11.0"
   },
   "devDependencies": {
